@@ -44,7 +44,7 @@
 
 //     }
 
-//     const url = "https://hooks.slack.com/services/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"
+//     const url = "https://hooks.slack.com/services/"
 
 //     fetch({
 //         method: "POST",
@@ -192,7 +192,7 @@ const FormDialog = (props) => {
 
       // fetchメソッドでフォームの内容をSlackのIncoming Webhook URL に送信する
       const WEBHOOK_URL =
-        "https://hooks.slack.com/services/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";
+        "https://hooks.slack.com/services/";
       fetch(WEBHOOK_URL, {
         method: "POST",
         body: JSON.stringify(payload),
